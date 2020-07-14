@@ -1,0 +1,38 @@
+/* Theme tunning: for full list ov variables visit the https://alexxnb.github.io/svelte-docs/theming */
+
+:root {
+  --bg-color: rgba(45, 55, 72, var(--bg-opacity));
+  --bg-opacity: 1;
+  --brand-green: #8bc852;
+  --brand-green-dark: #4b715d;
+  --brand-grey: #545f63;
+}
+
+header {
+  background: var(--bg-color);
+  height: 75px;
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  margin-right: 0.5rem;
+}
+
+.header-nav {
+  color: #fff;
+  margin-right: 1.5rem;
+}
+
+nav {
+  margin-top: 1.5rem;
+  background-color: var(--brand-grey);
+}
+
+main {
+  margin-top: 1.5rem;
+}
+
+a:hover {
+  text-decoration: none;
+}
